@@ -1,6 +1,6 @@
 import { ADD_FEATURE, REMOVE_FEATURE, UPDATE_TOTAL } from '.../action';
 
-const initialSate = {
+const initialState = {
     additionalPrice: 0,
     car: {
         price: 26395,
