@@ -6,9 +6,9 @@ import AdditionalFeatures from './components/AdditionalFeatures';
 import Total from './components/Total';
 
 //import actions
-import { addFeature, removeFeature, updateTotal } from './actions/index';
+// import { addFeature, removeFeature, updateTotal } from './actions/index';
 
-import { connect } from 'react-redux';
+// import { connect } from 'react-redux';
 
 const App = (props) => {
 
