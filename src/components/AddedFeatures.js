@@ -8,7 +8,6 @@ const AddedFeatures = props => {
       <h6>Added features:</h6>
       {props.car.features.length ? (
         <ol type="1">
-          {/* remove feature */}
           {props.car.features.map(item => (
             <AddedFeature
               key={item.id}

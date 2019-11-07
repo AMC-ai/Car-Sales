@@ -13,7 +13,6 @@ const AdditionalFeatures = props => {
           <AdditionalFeature
             key={item.id}
             feature={item}
-          // add={props.addFeature}
           />
         ))}
         </ol>

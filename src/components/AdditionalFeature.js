@@ -6,7 +6,6 @@ import { addFeature } from '../actions/index';
 const AdditionalFeature = props => {
   console.log("add feat 1", props)
   const dispatch = useDispatch();
-  const add = props.add;
 
   return (
     <li>
