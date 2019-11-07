@@ -8,11 +8,13 @@ const AdditionalFeatures = props => {
       <h4>Additional Features</h4>
       {props.additionalFeatures.length ? (
         <ol type="1">
-          {/* remove item here? */}
+          {/* remove feature here? */}
           {props.additionalFeatures.map(item => (
             <AdditionalFeature
               key={item.id}
-              feature={item} />
+              feature={item}
+              removeFeature={props.removeFeature}
+            />
           ))}
         </ol>
       ) : (
