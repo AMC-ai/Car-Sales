@@ -13,7 +13,7 @@ const AddedFeatures = props => {
             <AddedFeature
               key={item.id}
               feature={item}
-              removeFeature={props.removeFeature}
+              remove={props.removeFeature}
             />
           ))}
         </ol>

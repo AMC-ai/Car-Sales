@@ -2,23 +2,23 @@ export const ADD_FEATURE = 'ADD_FEATURE';
 export const REMOVE_FEATURE = 'REMOVE_FEATURE';
 export const UPDATE_FEATURE = 'UPDATE_FEATURE';
 
-export const addFeature = (item) => {
+export const addFeature = (feature) => {
     return {
         type: ADD_FEATURE,
-        payload: item
+        payload: feature
     }
 };
 
-export const removeFeature = (item) => {
+export const removeFeature = (feature) => {
     return {
         type: REMOVE_FEATURE,
-        payload: item
+        payload: feature
     }
 };
 
-export const updateTotal = (item) => {
-    return {
-        type: UPDATE_FEATURE,
-        payload: item
-    }
-};
+// export const updateFeature = (item) => {
+//     return {
+//         type: UPDATE_FEATURE,
+//         payload: item
+//     }
+// };
